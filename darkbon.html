@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta property="og:title" content="SafeFantom">
+	<meta property="og:description" content="">
+	<title>Dark Bonfire</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+	
+	<link href="template.css" rel="stylesheet" type="text/css" media="screen">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="custom.js"></script>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=family=Khand:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+
+</head>
+<body lang="en">
+
+<script>
+
+$(document).ready(function() {
+
+
+	$(".openNav").on("click", function(e) {
+		e.preventDefault();
+		$(this).toggleClass("open");
+
+		$(".nav").toggle("slow");
+
+	});
+
+	if($(window).width() < 801) {
+	  $('a[href^="#"]').bind('click.smoothscroll',function (e) {
+	    e.preventDefault();
+	    $(".nav").toggle("slow");
+	    var target = this.hash,
+	        $target = $(target);
+
+	    $('html, body').stop().animate( {
+	      'scrollTop': $target.offset().top-100
+	    }, 900, 'swing', function () {
+	      window.location.hash = target-100;
+
+	    });
+	  });
+};
+
+
+if($(window).width() > 800) {
+	$('a[href^="#"]').bind('click.smoothscroll',function (e) {
+    e.preventDefault();
+    var target = this.hash,
+        $target = $(target);
+
+    $('html, body').stop().animate( {
+      'scrollTop': $target.offset().top-100
+    }, 900, 'swing', function () {
+      window.location.hash = target-100;
+
+    } );
+  } );
+}
+
+		
+});
+
+</script>
+
+
+
+<div class="top" id="home">
+	<div class="contract" id="home">
+		<div class="container clearfix">
+			<div class="col-6">
+				<strong>Contract</strong> 0x378474c7216bb27f3e03e7018307adbfab94e1a7 (v2)
+			</div>
+			<div class="col-6 some">
+				<a href="https://t.me/DarkBonfire" target="_blank"><span class="iconify" data-icon="bx:bxl-telegram" data-inline="false"></span></a>
+			</div>
+		</div>
+	</div>
+	<div class="top-wrap">
+		<div class="header">
+			
+		</div>
+		<div class="openNav">
+			<div class="line line1"></div>
+			<div class="line line2"></div>
+			<div class="line line3"></div>
+		</div>
+		<a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x378474c7216bb27f3e03e7018307adbfab94e1a7" class="mobileBuy" target="_blank">Buy</a>
+		<div class="nav">
+			<ul class="clearfix">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#roadmap">Roadmap</a></li>
+				<li><a href="#tokenomics">Tokenomics</a></li>
+				<li><a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank">Buy</a></li>
+				<li><a href="https://poocoin.app/tokens/0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank">Chart</a></li>
+				<li><a href="https://bscscan.com/token/0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank">Bscscan</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<div class="hero">
+	<div class="hero-text">
+		<div class="container clearfix">
+			<div class="col-6">
+				<div class="logo"><img src="logo.png" alt="Dark Bonfire" /></div>
+				<p>Dark Bonfire is a frictionless, yield-generating contract that allows you to seek shelter amidst the chaos of the market.</p>
+				<p>
+				<a href="https://bscscan.com/token/0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank" class="orange">BSC Scan ›</a>
+			
+				<a href="https://poocoin.app/tokens/0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank" class="white">Chart ›</a>
+			
+				<a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank" class="petrol">Buy ›</a>
+			</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="roadmap">
+	<div class="container clearfix">
+		<div id="roadmap">
+			<h2>Roadmap</h2>
+			<div class="clearfix">
+				<div class="col-3">
+					
+					<h4><strong>2021</strong> April</h4>
+					<ul>
+						<li class="ready">Token launch</li>
+						<li class="ready">Website launch</li>
+						<li>Community building</li>
+						<li>Community contests</li>
+						<li>CoinGecko listing</li>
+						<li>CMC listing</li>
+						<li>Influencer marketing</li>
+					</ul>
+
+				</div>
+				<div class="col-3">
+					
+					<h4><strong>2021</strong> May</h4>
+					<ul>
+						<li>More community contests</li>
+						<li>WhiteBit listing</li>
+						<li>Delta listing</li>
+						<li>Blockfolio listing</li>
+						<li>Merch</li>
+						<li>Partnerships</li>
+					</ul>
+
+				</div>
+				<div class="col-3">
+					
+					<h4><strong>2021</strong> June</h4>
+					<ul>
+						<li>NFTs</li>
+						<li>Weekly podcast</li>
+						<li>Community crowdfunding</li>
+					</ul>
+
+				</div>
+				<div class="col-3">
+					
+					<h4><strong>2021</strong> July</h4>
+					<ul>
+						<li>Coming soon</li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<div id="tokenomics">
+			<h2>Tokenomics</h2>
+
+			<div class="clearfix">
+				<div class="col-4">
+			<p>
+				Total Supply 
+				<strong>1,000,000,000,000</strong>
+			</p>
+		</div>
+		<div class="col-4">
+			<p>
+				Redistribution to all holders
+				<strong>5%</strong>
+			</p>
+		</div>
+		<div class="col-4">
+			<p>
+				Added to the liquidity pool and locked
+				<strong>5% </strong>
+			</p>
+
+		</div>
+	</div>
+</div>
+	</div>
+</div>
+
+<div class="lower">
+	<div class="howto">
+		<div class="container clearfix">
+			<h2>How to buy</h2>
+			<h3>with metamask</h3>
+			<div class="row clearfix">
+				<div class="col-4">
+					<h6>1</h6>
+					<strong>Set up a custom RPC</strong>
+				</div>
+				<div class="col-4">
+					<h6>2</h6>
+					<strong>Network Name: </strong>
+					Smart chain
+				</div>
+				<div class="col-4">
+					<h6>3</h6>
+					<strong>New RPC URL: </strong>
+					https://bsc-dataseed.binance.org/
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-4">
+					<h6>4</h6>
+					<strong>Chain ID: </strong>
+					56
+				</div>
+				<div class="col-4">
+					<h6>5</h6>
+					<strong>Currency Symbol: </strong>
+					BNB
+				</div>
+				<div class="col-4">
+					<h6>6</h6>
+					<strong>Block Explorer URL: </strong>
+					https://bsccan.com
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container clearfix">
+			
+			<div class="logo"><img src="logo.png" alt="" /></div>
+			
+			<p>0x378474c7216bb27f3e03e7018307adbfab94e1a7 (v2)</p>
+
+			<div class="footer-but">
+
+				<a href="https://bscscan.com/token/0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank" class="orange">BSC Scan ›</a>
+				<a href="https://poocoin.app/tokens/0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank" class="white">Chart ›</a>
+				<a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x378474c7216bb27f3e03e7018307adbfab94e1a7" target="_blank" class="petrol">Buy (v2) ›</a>
+				
+
+			</div>
+			<div class="some">
+				<a href="https://t.me/DarkBonfire" target="_blank"><span class="iconify" data-icon="bx:bxl-telegram" data-inline="false"></span></a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
